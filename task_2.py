@@ -1,4 +1,5 @@
 class UserData:
+    
     def __init__(self, name, age):
         self.user_name = name
         self.age = age
