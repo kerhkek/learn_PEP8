@@ -1,4 +1,4 @@
-numbers = list(range(1,11))
+numbers = list(range(1, 11))
 squares = [n * n for n in numbers if n % 2 == 0]
 odds = [ n for n in numbers if n % 2 != 0]
 def generate_data(n):
