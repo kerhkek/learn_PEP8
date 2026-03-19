@@ -4,6 +4,7 @@ class UserData:
         self.age = age
     def print_info(self):
         print(f"User:{self.user_name}, Age: {self.age}")
+        
 def process_data(data_list):
     result = []
     for d in data_list:
