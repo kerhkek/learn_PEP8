@@ -10,6 +10,7 @@ def check_values(a, b):
             return -1
         else:
             return 0
+            
 flag = True
 while flag:
     flag = False
