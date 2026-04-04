@@ -15,6 +15,7 @@ def timer(func):
 
 def heavy_computation(n):
     return sum(i * i for i in range(n))
+    
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 squares = list(map(lambda x: x ** x, numbers))
 filtered = list(filter(lambda x: x > 10, squares))
