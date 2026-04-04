@@ -1,5 +1,6 @@
 import time
 from functools import wraps
+
 def timer(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
@@ -10,6 +11,7 @@ def timer(func):
         return result
     return wrapper
 @timer
+
 def heavy_computation(n):
     return sum(i * i for i in range(n))
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
